@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'websit.apps.WebsitConfig'
+    'websit.apps.WebsitConfig',
+    # 'blog.apps.BlogConfig'
+    'blog'
 ]
 
 MIDDLEWARE = [
